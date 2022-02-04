@@ -10,26 +10,31 @@ For general information about developing packages, see the Dart guide for
 and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
+   <b>Welcomes contribution from everyone.</b>  
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/ioridev)  
+Get a random bing wallpepar. 
 
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+![スクリーンショット 2022-02-04 23 59 45](https://user-images.githubusercontent.com/41247249/152551288-ce27946c-c225-485c-b31b-45617305e029.png)
 
 ## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
+ 
 ```dart
-const like = 'sample';
+FutureBuilder(
+        future: BingWallpepar().getWallpepar(),
+        builder: (BuildContext context, AsyncSnapshot<String> snapshot) {
+          if (snapshot.hasData) {
+            return Image.network(
+              snapshot.data as String,
+              fit: BoxFit.cover,
+              width: size.width,
+              height: size.height,
+            );
+          } else {
+            return Container();
+          }
+        },
+      ),
 ```
 
 ## Additional information
