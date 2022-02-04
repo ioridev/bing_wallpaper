@@ -11,8 +11,6 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
 ![スクリーンショット 2022-02-04 23 59 45](https://user-images.githubusercontent.com/41247249/152551288-ce27946c-c225-485c-b31b-45617305e029.png)
 
 ## Features
