@@ -1,7 +1,7 @@
 name: bing_wallpaper
-description: A new Flutter project.
+description: Get a random bing wallpepar.
 version: 0.0.1
-homepage:
+homepage: https://github.com/ioridev/bing_wallpaper
 
 environment:
   sdk: ">=2.16.0 <3.0.0"
