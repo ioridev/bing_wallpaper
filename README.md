@@ -13,10 +13,6 @@ and the Flutter guide for
 
 ![スクリーンショット 2022-02-04 23 59 45](https://user-images.githubusercontent.com/41247249/152551288-ce27946c-c225-485c-b31b-45617305e029.png)
 
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
 ## Getting started
 
 TODO: List prerequisites and provide or point to information on how to
