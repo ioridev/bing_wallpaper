@@ -24,7 +24,21 @@ TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder. 
 
 ```dart
-const like = 'sample';
+FutureBuilder(
+        future: BingWallpepar().getWallpepar(),
+        builder: (BuildContext context, AsyncSnapshot<String> snapshot) {
+          if (snapshot.hasData) {
+            return Image.network(
+              snapshot.data as String,
+              fit: BoxFit.cover,
+              width: size.width,
+              height: size.height,
+            );
+          } else {
+            return Container();
+          }
+        },
+      ),
 ```
 
 ## Additional information
