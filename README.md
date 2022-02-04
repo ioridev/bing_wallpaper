@@ -10,7 +10,9 @@ For general information about developing packages, see the Dart guide for
 and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
+   <b>Welcomes contribution from everyone.</b>  
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/ioridev)  
 Get a random bing wallpepar. 
 
 ![スクリーンショット 2022-02-04 23 59 45](https://user-images.githubusercontent.com/41247249/152551288-ce27946c-c225-485c-b31b-45617305e029.png)
